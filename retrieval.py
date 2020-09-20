@@ -9,7 +9,8 @@ from config import *
 from utils import *
 from data import Fashion_attr_prediction
 from net import f_model, c_model, p_model
-from sklearn.externals import joblib
+import sklearn.externals 
+import joblib
 
 
 @timer_with_task("Loading model")
